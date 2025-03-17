@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DynamicStars Community</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('https://example.com/explosive-banner.jpg') no-repeat center;
+            background-size: cover;
+            padding: 50px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        nav {
+            background: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 20px;
+        }
+        .button {
+            background: red;
+            padding: 10px 20px;
+            margin-top: 20px;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to DynamicStars Community!
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#forum">Forum</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Join the most explosive Brawl Stars community and be part of the action!</p>
+    </section>
+    <section id="forum">
+        <h2>Forum</h2>
+        <p>Discuss strategies, team up, and chat with other players.</p>
+        <a href="#" class="button">Join the Forum</a>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Stay tuned for tournaments, giveaways, and more!</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out our best moments in Brawl Stars.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch with us.</p>
+    </section>
+</body>
+</html>
